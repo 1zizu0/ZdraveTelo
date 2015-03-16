@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zdravé telo</string>
+    <string name="activityTest">Test</string>
+    <string name="activityTlak">Tlak</string>
+    <string name="activityTah">Ťah</string>
+    <string name="activityNohy">Nohy</string>
+    <string name="activityJadro">Jadro</string>
+    <string name="activityHistoria">História</string>
+    <string name="activityNemamCas">Nemám čas</string>
+    <string name="activityCviky">Cviky</string>
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    //Nazvy tlacidiel
+    <string name="buttonTest">Test</string>
+    <string name="buttonTlak">Tlak</string>
+    <string name="buttonTah">Ťah</string>
+    <string name="buttonNohy">Nohy</string>
+    <string name="buttonJadro">Jadro</string>
+    <string name="buttonHistoria">História</string>
+    <string name="buttonCviky">Cviky</string>
+    <string name="buttonNemamCas">Nemám čas</string>
+    <string name="buttonVyhodnotenie">Vyhodnotenie</string>
+
+    //Nazvy textov
+    <string name="textView1PocetKlikov">Maximálny počet kľukov s dvojsekundovou pauzou v hornej a dolnej fáze pohybu</string>
+    <string name="textView1PocetDrepov">Maximálny počet drepov </string>
+    <string name="textView1PocetBrusakov">Vydržať v statickom kľuku čo najdlhšie</string>
+    <string name="textView1Hodnotenie">Hodnotenie:</string>
+</resources>

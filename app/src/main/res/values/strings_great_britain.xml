@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="app_name">HealthyBody</string>-->
+    <!--<string name="activityTest">Test</string>-->
+    <!--<string name="activityTlak">Push</string>-->
+    <!--<string name="activityTah">Lift</string>-->
+    <!--<string name="activityNohy">Legs</string>-->
+    <!--<string name="activityJadro">Core</string>-->
+    <!--<string name="activityHistoria">History</string>-->
+    <!--<string name="activityNemamCas">Out of time</string>-->
+    <!--<string name="activityCviky">Exercise</string>-->
+
+
+
+    <!--<string name="action_settings">Settings</string>-->
+
+    <!--//Nazvy tlacidiel-->
+    <!--<string name="buttonTest">Test</string>-->
+    <!--<string name="buttonTlak">Push</string>-->
+    <!--<string name="buttonTah">Lift</string>-->
+    <!--<string name="buttonNohy">Legs</string>-->
+    <!--<string name="buttonJadro">Core</string>-->
+    <!--<string name="buttonHistoria">History</string>-->
+    <!--<string name="buttonCviky">Exercise</string>-->
+    <!--<string name="buttonNemamCas">Out of time</string>-->
+
+
+    <!--//Nazvy textov-->
+    <!--<string name="textView1PocetKlikov">Push ups</string>-->
+    <!--<string name="textView1PocetDrepov">Squats</string>-->
+    <!--<string name="textView1PocetBrusakov">Crunches</string>-->
+</resources>
