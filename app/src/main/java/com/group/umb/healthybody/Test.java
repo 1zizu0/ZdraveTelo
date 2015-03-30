@@ -23,30 +23,56 @@ public class Test extends ActionBarActivity {
 
     public void urcenieUrovne()
     {
-        final Editable [] hodnota = new Editable[3];
-
         final EditText pocetKlukov = (EditText)findViewById(R.id.editTextPocetKlukov);
         final EditText statickyKluk = (EditText)findViewById(R.id.editTextStatickyKluk);
         final EditText pocetDrepov = (EditText)findViewById(R.id.editTextPocetDrepov);
-        final EditText hodnotenieKluky = (EditText)findViewById(R.id.editTextHodnotenieKluky);
-        final EditText hodnotenieStatickyKluk = (EditText)findViewById(R.id.editTextHodnotenieStatickyKluk);
-        final EditText hodnotenieDrepy = (EditText)findViewById(R.id.editTextHodnotenieDrepy);
+        final EditText editTextVyhodnotenie = (EditText)findViewById(R.id.editTextVyhodnotenie);
 
         Button vyhodnotenie = (Button)findViewById(R.id.buttonVyhodnotenie);
-
-        hodnota[0] = pocetKlukov.getText();
-        hodnota[1] = statickyKluk.getText();
-        hodnota[2] = pocetDrepov.getText();
-
 
         vyhodnotenie.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                hodnotenieKluky.setText(hodnota[0]);
-                hodnotenieStatickyKluk.setText(hodnota[1]);
-                hodnotenieDrepy.setText(hodnota[2]);
+
+                int pocetKlukovHodnota;
+                try{
+                    pocetKlukovHodnota = Integer.valueOf(pocetKlukov.getText().toString());
+
+                }catch(NumberFormatException e){
+                    pocetKlukovHodnota = 0;
+                }
+
+                int statickyKlukHodnota;
+                try{
+                    statickyKlukHodnota = Integer.valueOf(statickyKluk.getText().toString());
+
+                }catch(NumberFormatException e){
+                    statickyKlukHodnota = 0;
+                }
+
+                int pocetDrepovHodnota;
+                try{
+                    pocetDrepovHodnota = Integer.valueOf(pocetDrepov.getText().toString());
+
+                }catch(NumberFormatException e){
+                    pocetDrepovHodnota = 0;
+                }
+
+                int sucet = pocetKlukovHodnota + statickyKlukHodnota + pocetDrepovHodnota;
+
+                if(sucet <= 50)
+                {
+                    editTextVyhodnotenie.setText("Zaciatocnik");
+                }
+                else
+                {
+                    editTextVyhodnotenie.setText("Pokrocily");
+                }
+
             }
         });
+
+
 
 
 

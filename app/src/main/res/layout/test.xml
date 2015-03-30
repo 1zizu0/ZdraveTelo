@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/background_policka">
+    android:background="@drawable/background_zlte">
 
     <TextView
         android:layout_width="300dp"
@@ -83,36 +83,6 @@
         android:layout_marginTop="50dp"
         android:textSize="32dp"/>
 
-    <EditText
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:ems="10"
-        android:id="@+id/editTextHodnotenieKluky"
-        android:layout_alignBottom="@+id/textView1Hodnotenie"
-        android:layout_toRightOf="@+id/textView1Hodnotenie"
-        android:layout_toEndOf="@+id/textView1Hodnotenie" />
-
-    <EditText
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:ems="10"
-        android:id="@+id/editTextHodnotenieStatickyKluk"
-        android:layout_alignTop="@+id/editTextHodnotenieKluky"
-        android:layout_toRightOf="@+id/editTextHodnotenieKluky"
-        android:layout_toEndOf="@+id/editTextHodnotenieKluky" />
-
-    <EditText
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:ems="10"
-        android:id="@+id/editTextHodnotenieDrepy"
-        android:layout_alignTop="@+id/editTextHodnotenieStatickyKluk"
-        android:layout_toRightOf="@+id/editTextHodnotenieStatickyKluk"
-        android:layout_toEndOf="@+id/editTextHodnotenieStatickyKluk" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -123,14 +93,15 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="43dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/buttonVyhodnotenie"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/editTextVyhodnotenie"
+        android:layout_above="@+id/buttonVyhodnotenie"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView1Hodnotenie"
+        android:layout_toEndOf="@+id/textView1Hodnotenie" />
 
 
 </RelativeLayout>

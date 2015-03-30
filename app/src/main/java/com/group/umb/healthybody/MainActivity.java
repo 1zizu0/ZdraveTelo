@@ -50,13 +50,11 @@ public class MainActivity extends ActionBarActivity {
         final Animation animAlpha = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);
 
         Button buttonTest = (Button)findViewById(R.id.buttonTest);
-
-        Button buttonHistoria = (Button)findViewById(R.id.buttonHistoria);
         Button buttonNemamCas = (Button)findViewById(R.id.buttonNemamCas);
+        Button buttonHistoria = (Button)findViewById(R.id.buttonHistoria);
         Button buttonCviky = (Button)findViewById(R.id.buttonCviky);
 
-        ImageButton imageButtonAnglictina = (ImageButton)findViewById(R.id.imageButtonAnglictina);
-        ImageButton imageButtonSlovencina = (ImageButton)findViewById(R.id.imageButtonSlovencina);
+
 
         buttonTest.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -67,14 +65,8 @@ public class MainActivity extends ActionBarActivity {
               }
         });
 
-        buttonHistoria.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                v.startAnimation(animAlpha);
-                Intent i = new Intent(v.getContext(), Historia.class);
-                startActivityForResult(i, 0);
-            }
-        });
+
+
         buttonCviky.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -83,6 +75,7 @@ public class MainActivity extends ActionBarActivity {
                 startActivityForResult(i, 0);
             }
         });
+
         buttonNemamCas.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,18 +84,17 @@ public class MainActivity extends ActionBarActivity {
                 startActivityForResult(i, 0);
             }
         });
-        imageButtonAnglictina.setOnClickListener(new View.OnClickListener() {
+
+        buttonHistoria.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Anglictina kliknuta", Toast.LENGTH_LONG).show();
+                v.startAnimation(animAlpha);
+                Intent i = new Intent(v.getContext(), Historia.class);
+                startActivityForResult(i, 0);
             }
         });
-        imageButtonSlovencina.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Slovencina kliknuta", Toast.LENGTH_LONG).show();
-            }
-        });
+
+
 
 
     }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/background_policka">
+    android:background="@drawable/background_zlte">
 
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="@string/buttonTlak"
         android:id="@+id/buttonTlak"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="90dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#ffffff"
-        android:textStyle="bold"/>
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="100dp"
@@ -22,10 +22,10 @@
         android:layout_below="@+id/buttonTlak"
         android:layout_alignLeft="@+id/buttonTlak"
         android:layout_alignStart="@+id/buttonTlak"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:layout_alignRight="@+id/buttonTlak"
         android:layout_alignEnd="@+id/buttonTlak"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textStyle="bold"/>
 
     <Button
@@ -36,10 +36,10 @@
         android:layout_below="@+id/buttonTah"
         android:layout_alignLeft="@+id/buttonTah"
         android:layout_alignStart="@+id/buttonTah"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:layout_alignRight="@+id/buttonTah"
         android:layout_alignEnd="@+id/buttonTah"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textStyle="bold"/>
 
     <Button
@@ -47,13 +47,13 @@
         android:layout_height="wrap_content"
         android:text="@string/buttonJadro"
         android:id="@+id/buttonJadro"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:layout_below="@+id/buttonNohy"
         android:layout_alignLeft="@+id/buttonNohy"
         android:layout_alignStart="@+id/buttonNohy"
         android:layout_alignRight="@+id/buttonNohy"
         android:layout_alignEnd="@+id/buttonNohy"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textStyle="bold"/>
 
 </RelativeLayout>

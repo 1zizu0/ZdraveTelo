@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_policka">
+        android:background="@drawable/background_zlte">
 
 
 
@@ -12,77 +12,53 @@
         android:layout_height="wrap_content"
         android:text="@string/buttonTest"
         android:id="@+id/buttonTest"
-        android:layout_marginLeft="60dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff"
-        android:textStyle="bold"/>
-
-     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonNemamCas"
-        android:id="@+id/buttonNemamCas"
-        android:layout_alignLeft="@+id/buttonTest"
-        android:layout_alignStart="@+id/buttonTest"
-        android:layout_below="@+id/buttonTest"
-        android:layout_marginTop="55dp"
-        android:layout_alignRight="@+id/buttonTest"
-        android:layout_alignEnd="@+id/buttonTest"
-         android:textColor="#ffffff"
-         android:textStyle="bold"/>
+        android:layout_marginTop="104dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/buttonCviky"
         android:id="@+id/buttonCviky"
-        android:layout_below="@+id/buttonNemamCas"
-        android:layout_alignLeft="@+id/buttonNemamCas"
-        android:layout_alignStart="@+id/buttonNemamCas"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="50dp"
         android:layout_alignRight="@+id/buttonTest"
         android:layout_alignEnd="@+id/buttonTest"
-        android:textColor="#ffffff"
-        android:textStyle="bold"/>
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonTest"
+        android:layout_alignLeft="@+id/buttonTest"
+        android:layout_alignStart="@+id/buttonTest" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/buttonHistoria"
-        android:id="@+id/buttonHistoria"
-        android:layout_marginTop="53dp"
+        android:text="@string/buttonNemamCas"
+        android:id="@+id/buttonNemamCas"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:layout_below="@+id/buttonCviky"
         android:layout_alignLeft="@+id/buttonCviky"
         android:layout_alignStart="@+id/buttonCviky"
         android:layout_alignRight="@+id/buttonCviky"
         android:layout_alignEnd="@+id/buttonCviky"
-        android:textColor="#ffffff"
-        android:textStyle="bold"/>
+        android:layout_marginTop="50dp" />
 
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageButtonSlovencina"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="30dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/icon_slovakia"
-        />
-
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageButtonAnglictina"
-        android:layout_alignTop="@+id/imageButtonSlovencina"
-        android:layout_marginRight="15dp"
-        android:layout_toLeftOf="@+id/imageButtonSlovencina"
-        android:layout_toStartOf="@+id/imageButtonSlovencina"
-        android:background="@drawable/icon_great_britain"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonHistoria"
+        android:id="@+id/buttonHistoria"
+        android:layout_below="@+id/buttonNemamCas"
+        android:layout_alignLeft="@+id/buttonNemamCas"
+        android:layout_alignStart="@+id/buttonNemamCas"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/buttonNemamCas"
+        android:layout_alignEnd="@+id/buttonNemamCas" />
 
 
 </RelativeLayout>
